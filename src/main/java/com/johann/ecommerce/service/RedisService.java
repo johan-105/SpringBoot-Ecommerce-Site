@@ -4,7 +4,7 @@ public interface RedisService {
 
     void set(String key, String value);
 
-    void get(String key);
+    String get(String key);
 
     boolean expire(String key, long expire);
 
